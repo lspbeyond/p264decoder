@@ -1,0 +1,23 @@
+Current work 
+ P264Decoder 
+implement the simple pure c version
+1. reorganize the program structure.
+2. delete the   
+ 
+
+Next step 
+ P264Decoder 
+1.change the function interface as suitable for IPP, 
+2.use IPP replacing the old asm code,
+3.optimize the pure c version, catch up the decoding speed of ffmpeg.  
+ 
+
+NeNext step 
+ P264Decoder 
+1.transport the pure c version to every platform, like linux, mac, dsp, wince and etc. implement the special optimization by the experts of each platform.
+2.support the most abundant h.264 feature
+3.implement p264decoder directshow filter  
+
+==================
+p264deocder.zj.com
+==================
